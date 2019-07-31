@@ -5,6 +5,7 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
@@ -18,7 +19,8 @@ public class JsonReader {
 
         JSONParser parser = new JSONParser();
         try {
-            JSONArray a  = (JSONArray) parser.parse(new FileReader("C:\\Users\\320066002\\IdeaProjects\\chatbot\\ChatBot\\src\\main\\java\\com\\JSB2G3\\ChatBot\\PM.json"));
+            File currentDirectory = new File(new File(".").getAbsolutePath());
+            JSONArray a  = (JSONArray) parser.parse(new FileReader(currentDirectory.getCanonicalPath()+"\\src\\main\\java\\com\\JSB2G3\\ChatBot\\PM.json"));
 
             for (Object o : a)
             {
