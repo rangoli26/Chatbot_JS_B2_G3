@@ -2,10 +2,9 @@ package com.JSB2G3.ChatBot;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
+//import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.*;
 
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
@@ -14,13 +13,14 @@ import java.util.List;
 import java.util.Map;
 
 public class JsonReader {
-    String[] arr;
+    String[] monitorArray;
     public JsonReader(Map<String, List<String>> monitorsFeatures) {
 
         JSONParser parser = new JSONParser();
         try {
-            File currentDirectory = new File(new File(".").getAbsolutePath());
-            JSONArray a  = (JSONArray) parser.parse(new FileReader(currentDirectory.getCanonicalPath()+"\\src\\main\\java\\com\\JSB2G3\\ChatBot\\PM.json"));
+            String currentDirectory = System.getProperty("user.dir");
+
+            JSONArray a  = (JSONArray) parser.parse(new FileReader(currentDirectory+"\\src\\main\\java\\com\\JSB2G3\\ChatBot\\PM.json"));
 
             for (Object o : a)
             {
@@ -35,8 +35,8 @@ public class JsonReader {
 
                 String Type = (String) model.get("Type");
 
-                arr= new String[]{Brand, Size, Type};
-                monitorsFeatures.put(Name, Arrays.asList(arr));
+                monitorArray = new String[]{Brand, Size, Type};
+                monitorsFeatures.put(Name, Arrays.asList(monitorArray));
 
 
             }

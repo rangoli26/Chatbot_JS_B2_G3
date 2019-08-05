@@ -8,11 +8,19 @@ public class Greetings {
 
     List<String>  customerDetails;
 
+
+
     Greetings()
     {
         customerDetails=new ArrayList<String>();
     }
 
+    public String getGreetMessage() {
+        Scanner sc = new Scanner(System.in);
+        System.out.printf("Enter your name");
+        String custName = sc.nextLine();
+        return custName;
+    }
 
     public List<String> greetMessage(Scanner scanner)
     {

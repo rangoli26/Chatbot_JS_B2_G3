@@ -7,14 +7,14 @@ import java.util.List;
 public class Features {
 
     List<String> Models;
-    StartUp obj;
+    StartUp startUp;
     List<String> modelFeatures;
     String[] feature={"Brand","Screen Size", "Screen Type","Show All","Back","Exit"};
 
     public Features()
     {
-        obj = new StartUp();
-        Models = obj.getMonitorsList();
+        startUp = new StartUp();
+        Models = startUp.getMonitorsList();
         modelFeatures = Arrays.asList(feature);
     }
     public List<String> getScreenSize()
@@ -23,7 +23,7 @@ public class Features {
         String size="";
         for( int i=0;i<Models.size();i++)
         {
-            size=obj.getMonitorsFeatures(Models.get(i)).get(1);
+            size= startUp.getMonitorsFeatures(Models.get(i)).get(1);
             if(!sizeList.contains(size))
             {
                 sizeList.add(size);
@@ -37,7 +37,7 @@ public class Features {
         String brand="";
         for( int i=0;i<Models.size();i++)
         {
-            brand=obj.getMonitorsFeatures(Models.get(i)).get(0);
+            brand= startUp.getMonitorsFeatures(Models.get(i)).get(0);
             if(!brandList.contains(brand))
             {
                 brandList.add(brand);
@@ -51,7 +51,7 @@ public class Features {
         String type="";
         for( int i=0;i<Models.size();i++)
         {
-            type=obj.getMonitorsFeatures(Models.get(i)).get(2);
+            type= startUp.getMonitorsFeatures(Models.get(i)).get(2);
             if(!typeList.contains(type))
             {
                 typeList.add(type);
@@ -69,7 +69,7 @@ public class Features {
         String screenSize="";
         for(int i=0;i<inputs.size();i++)
         {
-            screenSize = obj.getMonitorsFeatures(inputs.get(i)).get(1);
+            screenSize = startUp.getMonitorsFeatures(inputs.get(i)).get(1);
             if(screenSize.equals(size))
             {
                 output.add(inputs.get(i));
@@ -88,7 +88,7 @@ public class Features {
         String screenType="";
         for(int i=0;i<inputs.size();i++)
         {
-            screenType = obj.getMonitorsFeatures(inputs.get(i)).get(2);
+            screenType = startUp.getMonitorsFeatures(inputs.get(i)).get(2);
             if(screenType.equals(type))
             {
                 output.add(inputs.get(i));
@@ -107,7 +107,7 @@ public class Features {
         String Brand="";
         for(int i=0;i<inputs.size();i++)
         {
-            Brand = obj.getMonitorsFeatures(inputs.get(i)).get(0);
+            Brand = startUp.getMonitorsFeatures(inputs.get(i)).get(0);
             if(Brand.equals(type))
             {
                 output.add(inputs.get(i));

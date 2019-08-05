@@ -2,11 +2,24 @@ package com.JSB2G3.ChatBot;
 
 import org.junit.Assert;
 import org.junit.Test;
+
+import java.io.ByteArrayInputStream;
+import java.io.InputStream;
 import java.util.List;
 import java.util.Scanner;
 import static org.junit.Assert.*;
 
 public class GreetingsTest {
+
+
+    @Test
+    public void testGreetCustomerName() {
+        Greetings greetings = new Greetings();
+        String input = "Sunil";
+        InputStream in = new ByteArrayInputStream(input.getBytes());
+        System.setIn(in);
+        assertEquals("Sunil",greetings.getGreetMessage());
+    }
 
     @Test
     public void greetMessage() {

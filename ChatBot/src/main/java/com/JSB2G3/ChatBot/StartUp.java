@@ -1,9 +1,7 @@
 package com.JSB2G3.ChatBot;
-
 import java.util.*;
 
-public class StartUp {
-
+    public class StartUp {
 
     Map<String,List<String>> monitorsFeatures= new HashMap<String, List<String>>();
 

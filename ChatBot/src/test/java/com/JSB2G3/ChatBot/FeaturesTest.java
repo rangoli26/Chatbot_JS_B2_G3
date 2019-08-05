@@ -4,6 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import java.util.Arrays;
 import java.util.List;
+import com.JSB2G3.ChatBot.Features;
 
 public class FeaturesTest {
 
