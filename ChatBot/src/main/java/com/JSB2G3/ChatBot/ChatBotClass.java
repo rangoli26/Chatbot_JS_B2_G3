@@ -45,7 +45,7 @@ public class ChatBotClass {
                     break;
 
                 case 3:
-                    showBySize();
+                    monitor=showBySize();
                     break;
 
                 case 4:
@@ -276,8 +276,11 @@ public class ChatBotClass {
     {
         boolean ordercnf = false;
 
+        System.out.println("in oonfirm class"+model);
+
         if(model != null) {
-           String[] order = {"Yes", "Exit"};
+
+            String[] order = {"Yes", "Exit"};
             List<String> orderMenu = new ArrayList<>(Arrays.asList(order));
 
             while (true) {

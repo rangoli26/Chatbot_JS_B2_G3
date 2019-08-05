@@ -7,7 +7,6 @@ public class ChatBot {
 
     public static void main(String[] args)
     {
-        /*
         List<String> customerDetails;
         Greetings greetings=new Greetings();
         Scanner scanner = new Scanner(System.in);
@@ -28,9 +27,7 @@ public class ChatBot {
 
         }
 
-        */
-        String currentDirectory = System.getProperty("user.dir");
-        System.out.println("The current working directory is " + currentDirectory);
+
 
 
 

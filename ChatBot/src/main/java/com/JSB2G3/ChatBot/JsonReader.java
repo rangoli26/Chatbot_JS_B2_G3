@@ -18,9 +18,11 @@ public class JsonReader {
 
         JSONParser parser = new JSONParser();
         try {
+
             String currentDirectory = System.getProperty("user.dir");
 
             JSONArray a  = (JSONArray) parser.parse(new FileReader(currentDirectory+"\\src\\main\\java\\com\\JSB2G3\\ChatBot\\PM.json"));
+
 
             for (Object o : a)
             {

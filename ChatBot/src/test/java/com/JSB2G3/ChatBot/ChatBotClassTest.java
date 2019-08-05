@@ -24,14 +24,12 @@ public class ChatBotClassTest {
         g.scanner=new Scanner(1+"\n"+2+"\n");
         assertEquals("CM150",g.mainMenu());
 
-        g.scanner=new Scanner(5+"\n");
-        assertEquals(null,g.mainMenu());
 
 
 
         //negative test cases
 
-        g.scanner=new Scanner(1+"\n"+0+"\n"+5+"\n");
+        g.scanner=new Scanner(1+"\n"+0+"\n"+2+"\n");
         assertNotEquals("G30E",g.mainMenu());
 
 
