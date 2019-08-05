@@ -12,7 +12,9 @@ public class ChatBot {
         Greetings greetings=new Greetings();
         Scanner scanner = new Scanner(System.in);
         List<String> customerDetails = greetings.greetMessage(scanner);
+
         MainMenu menu=new MainMenu();
+        menu.generateMenu(menu.getMenuList());
 
         if(menu.finalChoice !=null)
         {

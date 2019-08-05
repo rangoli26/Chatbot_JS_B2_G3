@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Features.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">ChatBot</a> &gt; <a href="index.source.html" class="el_package">com.JSB2G3.ChatBot</a> &gt; <span class="el_source">Features.java</span></div><h1>Features.java</h1><pre class="source lang-java linenums">package com.JSB2G3.ChatBot;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class Features {
+
+    List&lt;String&gt; Models;
+    StartUp obj;
+    List&lt;String&gt; modelFeatures;
+<span class="fc" id="L12">    String[] feature={&quot;Brand&quot;,&quot;Screen Size&quot;, &quot;Screen Type&quot;,&quot;Show All&quot;,&quot;Back&quot;,&quot;Exit&quot;};</span>
+
+    public Features()
+<span class="fc" id="L15">    {</span>
+<span class="fc" id="L16">        obj = new StartUp();</span>
+<span class="fc" id="L17">        Models = obj.getMonitorsList();</span>
+<span class="fc" id="L18">        modelFeatures = Arrays.asList(feature);</span>
+<span class="fc" id="L19">    }</span>
+    public List&lt;String&gt; getScreenSize()
+    {
+<span class="fc" id="L22">        List&lt;String&gt; sizeList=new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L23">        String size=&quot;&quot;;</span>
+<span class="fc bfc" id="L24" title="All 2 branches covered.">        for( int i=0;i&lt;Models.size();i++)</span>
+        {
+<span class="fc" id="L26">            size=obj.getMonitorsFeatures(Models.get(i)).get(1);</span>
+<span class="fc bfc" id="L27" title="All 2 branches covered.">            if(!sizeList.contains(size))</span>
+            {
+<span class="fc" id="L29">                sizeList.add(size);</span>
+            }
+        }
+<span class="fc" id="L32">        return sizeList;</span>
+    }
+    public List&lt;String&gt; getBrands()
+    {
+<span class="fc" id="L36">        List&lt;String&gt; brandList=new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L37">        String brand=&quot;&quot;;</span>
+<span class="fc bfc" id="L38" title="All 2 branches covered.">        for( int i=0;i&lt;Models.size();i++)</span>
+        {
+<span class="fc" id="L40">            brand=obj.getMonitorsFeatures(Models.get(i)).get(0);</span>
+<span class="fc bfc" id="L41" title="All 2 branches covered.">            if(!brandList.contains(brand))</span>
+            {
+<span class="fc" id="L43">                brandList.add(brand);</span>
+            }
+        }
+<span class="fc" id="L46">        return brandList;</span>
+    }
+    public List&lt;String&gt; getScreenType()
+    {
+<span class="fc" id="L50">        List&lt;String&gt; typeList=new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L51">        String type=&quot;&quot;;</span>
+<span class="fc bfc" id="L52" title="All 2 branches covered.">        for( int i=0;i&lt;Models.size();i++)</span>
+        {
+<span class="fc" id="L54">            type=obj.getMonitorsFeatures(Models.get(i)).get(2);</span>
+<span class="fc bfc" id="L55" title="All 2 branches covered.">            if(!typeList.contains(type))</span>
+            {
+<span class="fc" id="L57">                typeList.add(type);</span>
+            }
+        }
+<span class="fc" id="L60">        return typeList;</span>
+    }
+    public List&lt;String&gt; getModelsBySize(String size, List&lt;String&gt; inputs)
+    {
+<span class="fc bfc" id="L64" title="All 2 branches covered.">        if(inputs==null)</span>
+        {
+<span class="fc" id="L66">            inputs=Models;</span>
+        }
+<span class="fc" id="L68">        List&lt;String&gt; output= new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L69">        String screenSize=&quot;&quot;;</span>
+<span class="fc bfc" id="L70" title="All 2 branches covered.">        for(int i=0;i&lt;inputs.size();i++)</span>
+        {
+<span class="fc" id="L72">            screenSize = obj.getMonitorsFeatures(inputs.get(i)).get(1);</span>
+<span class="fc bfc" id="L73" title="All 2 branches covered.">            if(screenSize.equals(size))</span>
+            {
+<span class="fc" id="L75">                output.add(inputs.get(i));</span>
+            }
+        }
+<span class="fc" id="L78">        return output;</span>
+    }
+
+    public List&lt;String&gt; getModelsByTouchScreen(String type, List&lt;String&gt; inputs)
+    {
+<span class="pc bpc" id="L83" title="1 of 2 branches missed.">        if(inputs==null)</span>
+        {
+<span class="fc" id="L85">            inputs=Models;</span>
+        }
+<span class="fc" id="L87">        List&lt;String&gt; output= new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L88">        String screenType=&quot;&quot;;</span>
+<span class="fc bfc" id="L89" title="All 2 branches covered.">        for(int i=0;i&lt;inputs.size();i++)</span>
+        {
+<span class="fc" id="L91">            screenType = obj.getMonitorsFeatures(inputs.get(i)).get(2);</span>
+<span class="fc bfc" id="L92" title="All 2 branches covered.">            if(screenType.equals(type))</span>
+            {
+<span class="fc" id="L94">                output.add(inputs.get(i));</span>
+            }
+        }
+<span class="fc" id="L97">        return output;</span>
+    }
+
+    public List&lt;String&gt; getModelsByBrand(String type, List&lt;String&gt; inputs)
+    {
+<span class="fc bfc" id="L102" title="All 2 branches covered.">        if(inputs==null)</span>
+        {
+<span class="fc" id="L104">            inputs=Models;</span>
+        }
+<span class="fc" id="L106">        List&lt;String&gt; output= new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L107">        String Brand=&quot;&quot;;</span>
+<span class="fc bfc" id="L108" title="All 2 branches covered.">        for(int i=0;i&lt;inputs.size();i++)</span>
+        {
+<span class="fc" id="L110">            Brand = obj.getMonitorsFeatures(inputs.get(i)).get(0);</span>
+<span class="fc bfc" id="L111" title="All 2 branches covered.">            if(Brand.equals(type))</span>
+            {
+<span class="fc" id="L113">                output.add(inputs.get(i));</span>
+            }
+        }
+<span class="fc" id="L116">        return output;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.4.201905082037</span></div></body></html>

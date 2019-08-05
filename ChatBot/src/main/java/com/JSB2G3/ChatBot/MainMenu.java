@@ -1,40 +1,49 @@
 package com.JSB2G3.ChatBot;
 
+import com.JSB2G3.utils.TypeValues;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
+
 public class MainMenu {
-    private String[] menu={"Show All","Brand","Screen Size","Screen Type","Exit"};
-    Features features;
-    List<String> models;
-    List<String> modelFeatures;
-    List<String> menuList;
+    // private String[] menu={"Show All","Brand","Screen Size","Screen Type","Exit"};
+    private List<String> models = new ArrayList<>();
+    private List<String> modelFeatures = new ArrayList<>();
+    private List<String> menuList = new ArrayList<>
+            (Arrays.asList("Show All","Brand","Screen Size","Screen Type","Exit"));
     public String finalChoice=null;
+
+    Features features=new Features();
+
+
+    public List<String> getMenuList() {
+        return menuList;
+    }
+
+    public void setMenuList(List<String> menuList) {
+        this.menuList = menuList;
+    }
 
     public MainMenu()
     {
-        features=new Features();
-        models = new ArrayList<>();
-        modelFeatures = new ArrayList<>();
-        menuList = new ArrayList<>();
-        menuList = Arrays.asList(menu);
 
-        mainMenu(menuList);
     }
 
 
-    private void mainMenu(List<String> asList) {
+
+    public void generateMenu(List<String> asList) {
 
         printMenu(asList);
         List<String> currentList;
 
 
-        int choice=0;
+        int choice = TypeValues.ZERO;
 
         choice = input("Enter Choice");
-        if (choice == 1) {
+        if (choice == TypeValues.ONE) {
 
             currentList=modelMenu("All", "");
             String monitor=currentList.get(input("Enter Choice")-1);
@@ -42,7 +51,7 @@ public class MainMenu {
 
 
         }
-        else if (choice == 2 || choice == 3 || choice == 4) {
+        else if (choice == TypeValues.TWO || choice == TypeValues.THREE || choice == TypeValues.FOUR) {
 
             String monitors;
             List<String> cList=featureMenu(menuList.get(choice - 1));
@@ -83,7 +92,7 @@ public class MainMenu {
     }
 
 
-    private List<String>  featureMenu(String choice)
+    public List<String>  featureMenu(String choice)
     {
         switch (choice)
         {

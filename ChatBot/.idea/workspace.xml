@@ -2,22 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7efa00b5-96d1-42b4-b62f-5fe642c1120a" name="Default Changelist" comment="New Changes">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/JSB2G3/ChatBot/ChatBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JSB2G3/ChatBot/ChatBot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/JSB2G3/ChatBot/JsonReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JSB2G3/ChatBot/JsonReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/JSB2G3/ChatBot/MainMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JSB2G3/ChatBot/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JSB2G3/ChatBot/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ChatBot-1.0-SNAPSHOT.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/JSB2G3/ChatBot/ChatBot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/JSB2G3/ChatBot/ChatBot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/JSB2G3/ChatBot/Display.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/JSB2G3/ChatBot/Features.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/JSB2G3/ChatBot/Features.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/JSB2G3/ChatBot/Greetings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/JSB2G3/ChatBot/Greetings.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/JSB2G3/ChatBot/JsonReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/JSB2G3/ChatBot/JsonReader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/JSB2G3/ChatBot/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/JSB2G3/ChatBot/MainMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/JSB2G3/ChatBot/ModelDetailsMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/JSB2G3/ChatBot/Stack.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/JSB2G3/ChatBot/StartUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/JSB2G3/ChatBot/StartUp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/ChatBot.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/JSB2G3/ChatBot/ChatBot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="240">
+              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/JSB2G3/ChatBot/MainMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5130">
-              <caret line="190" column="1" selection-start-line="190" selection-start-column="1" selection-end-line="190" selection-end-column="1" />
+            <state relative-caret-position="480">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/JSB2G3/ChatBot/Features.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-847">
-              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            <state relative-caret-position="260">
+              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,34 +72,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/JSB2G3/ChatBot/JsonReader.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/JSB2G3/utils/TypeValues.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="220">
+              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/JSB2G3/ChatBot/FeaturesTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/JSB2G3/ChatBot/MainMenuTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/JSB2G3/ChatBot/GreetingsTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/JSB2G3/ChatBot/ConstantsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="692">
-              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+            <state relative-caret-position="200">
+              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,6 +115,7 @@
     <findStrings>
       <find>no</find>
       <find>previousMenu</find>
+      <find>sho</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -129,7 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/JSB2G3/ChatBot/Model.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/JSB2G3/ChatBot/Greetings.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/JSB2G3/ChatBot/GreetingsTest.java" />
@@ -142,9 +136,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/JSB2G3/ChatBot/ModelDetailsMenu.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/JSB2G3/ChatBot/Stack.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/JSB2G3/ChatBot/customerDetailsStack.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/JSB2G3/ChatBot/ChatBot.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/JSB2G3/ChatBot/JsonReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/JSB2G3/utils/EnumChoices.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/JSB2G3/ChatBot/ConstantsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/JSB2G3/utils/TypeValues.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/JSB2G3/ChatBot/MainMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/JSB2G3/ChatBot/ChatBot.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/JSB2G3/ChatBot/MainMenuTest.java" />
       </list>
     </option>
   </component>
@@ -170,10 +169,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="255" />
-    <option name="y" value="14" />
-    <option name="width" value="1406" />
-    <option name="height" value="1006" />
+    <option name="x" value="2286" />
+    <option name="y" value="88" />
+    <option name="width" value="1932" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -227,22 +226,10 @@
               <item name="ChatBot" type="b2602c69:ProjectViewProjectNode" />
               <item name="ChatBot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ChatBot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ChatBot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ChatBot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ChatBot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ChatBot" type="462c0819:PsiDirectoryNode" />
+              <item name="JSB2G3" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -267,6 +254,9 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.JSB2G3.ChatBot" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.JSB2G3" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -283,7 +273,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ChatBot">
+  <component name="RunManager" selected="JUnit.MainMenuTest.whenSwitchArgumentIsNull_thenNullPointerException">
     <configuration name="ChatBot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.JSB2G3.ChatBot.ChatBot" />
       <module name="ChatBot" />
@@ -297,7 +287,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FeaturesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConstantsTest.testConstantZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ChatBot" />
       <extension name="coverage">
         <pattern>
@@ -306,29 +296,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.JSB2G3.ChatBot" />
-      <option name="MAIN_CLASS_NAME" value="com.JSB2G3.ChatBot.FeaturesTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FeaturesTest.getModelsByBrand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ChatBot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.JSB2G3.ChatBot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.JSB2G3.ChatBot" />
-      <option name="MAIN_CLASS_NAME" value="com.JSB2G3.ChatBot.FeaturesTest" />
-      <option name="METHOD_NAME" value="getModelsByBrand" />
+      <option name="MAIN_CLASS_NAME" value="com.JSB2G3.ChatBot.ConstantsTest" />
+      <option name="METHOD_NAME" value="testConstantZero" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GreetingsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainMenuTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ChatBot" />
       <extension name="coverage">
         <pattern>
@@ -337,13 +312,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.JSB2G3.ChatBot" />
-      <option name="MAIN_CLASS_NAME" value="com.JSB2G3.ChatBot.GreetingsTest" />
+      <option name="MAIN_CLASS_NAME" value="com.JSB2G3.ChatBot.MainMenuTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GreetingsTest.greetMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainMenuTest.testArrayLengthOfMenu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ChatBot" />
       <extension name="coverage">
         <pattern>
@@ -352,8 +327,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.JSB2G3.ChatBot" />
-      <option name="MAIN_CLASS_NAME" value="com.JSB2G3.ChatBot.GreetingsTest" />
-      <option name="METHOD_NAME" value="greetMessage" />
+      <option name="MAIN_CLASS_NAME" value="com.JSB2G3.ChatBot.MainMenuTest" />
+      <option name="METHOD_NAME" value="testArrayLengthOfMenu" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainMenuTest.whenSwitchArgumentIsNull_thenNullPointerException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ChatBot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.JSB2G3.ChatBot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.JSB2G3.ChatBot" />
+      <option name="MAIN_CLASS_NAME" value="com.JSB2G3.ChatBot.MainMenuTest" />
+      <option name="METHOD_NAME" value="whenSwitchArgumentIsNull_thenNullPointerException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -361,11 +352,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainMenuTest.whenSwitchArgumentIsNull_thenNullPointerException" />
+        <item itemvalue="JUnit.MainMenuTest" />
         <item itemvalue="Application.ChatBot" />
-        <item itemvalue="JUnit.FeaturesTest" />
-        <item itemvalue="JUnit.FeaturesTest.getModelsByBrand" />
-        <item itemvalue="JUnit.GreetingsTest" />
-        <item itemvalue="JUnit.GreetingsTest.greetMessage" />
+        <item itemvalue="JUnit.MainMenuTest.testArrayLengthOfMenu" />
+        <item itemvalue="JUnit.ConstantsTest.testConstantZero" />
       </list>
     </recent_temporary>
   </component>
@@ -383,35 +374,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FeaturesTest - 2019.07.31 at 12h 14m 37s.xml">
-      <configuration name="FeaturesTest" configurationId="JUnit" />
+    <history-entry file="MainMenuTest_testArrayLengthOfMenu - 2019.08.05 at 14h 01m 37s.xml">
+      <configuration name="MainMenuTest.testArrayLengthOfMenu" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FeaturesTest_getModelsByBrand - 2019.07.31 at 12h 15m 33s.xml">
-      <configuration name="FeaturesTest.getModelsByBrand" configurationId="JUnit" />
+    <history-entry file="MainMenuTest_testArrayLengthOfMenu - 2019.08.05 at 14h 12m 47s.xml">
+      <configuration name="MainMenuTest.testArrayLengthOfMenu" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FeaturesTest_getModelsByBrand - 2019.07.31 at 12h 17m 10s.xml">
-      <configuration name="FeaturesTest.getModelsByBrand" configurationId="JUnit" />
+    <history-entry file="MainMenuTest_testArrayLengthOfMenu - 2019.08.05 at 14h 12m 56s.xml">
+      <configuration name="MainMenuTest.testArrayLengthOfMenu" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FeaturesTest_getModelsByBrand - 2019.07.31 at 12h 18m 45s.xml">
-      <configuration name="FeaturesTest.getModelsByBrand" configurationId="JUnit" />
+    <history-entry file="MainMenuTest_testArrayLengthOfMenu - 2019.08.05 at 14h 13m 10s.xml">
+      <configuration name="MainMenuTest.testArrayLengthOfMenu" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FeaturesTest_getModelsByBrand - 2019.07.31 at 12h 20m 16s.xml">
-      <configuration name="FeaturesTest.getModelsByBrand" configurationId="JUnit" />
+    <history-entry file="MainMenuTest_testArrayLengthOfMenu - 2019.08.05 at 14h 18m 45s.xml">
+      <configuration name="MainMenuTest.testArrayLengthOfMenu" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FeaturesTest_getModelsByBrand - 2019.07.31 at 12h 20m 34s.xml">
-      <configuration name="FeaturesTest.getModelsByBrand" configurationId="JUnit" />
+    <history-entry file="ConstantsTest_testConstantZero - 2019.08.05 at 14h 19m 13s.xml">
+      <configuration name="ConstantsTest.testConstantZero" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FeaturesTest_getModelsByBrand - 2019.07.31 at 12h 24m 03s.xml">
-      <configuration name="FeaturesTest.getModelsByBrand" configurationId="JUnit" />
+    <history-entry file="MainMenuTest_testArrayLengthOfMenu - 2019.08.05 at 14h 19m 31s.xml">
+      <configuration name="MainMenuTest.testArrayLengthOfMenu" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FeaturesTest - 2019.07.31 at 12h 33m 52s.xml">
-      <configuration name="FeaturesTest" configurationId="JUnit" />
+    <history-entry file="MainMenuTest_testArrayLengthOfMenu - 2019.08.05 at 14h 19m 45s.xml">
+      <configuration name="MainMenuTest.testArrayLengthOfMenu" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FeaturesTest - 2019.07.31 at 12h 37m 18s.xml">
-      <configuration name="FeaturesTest" configurationId="JUnit" />
+    <history-entry file="MainMenuTest - 2019.08.05 at 14h 42m 17s.xml">
+      <configuration name="MainMenuTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FeaturesTest - 2019.07.31 at 13h 38m 06s.xml">
-      <configuration name="FeaturesTest" configurationId="JUnit" />
+    <history-entry file="MainMenuTest_whenSwitchArgumentIsNull_thenNullPointerException - 2019.08.05 at 14h 43m 30s.xml">
+      <configuration name="MainMenuTest.whenSwitchArgumentIsNull_thenNullPointerException" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -424,9 +415,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2792696" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2857143" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -436,24 +427,24 @@
       <window_info x="409" y="108" width="379" height="418" id="simpleUML" order="7" weight="0.3292789" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3288201" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49758455" weight="0.21588367" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49919486" weight="0.3997773" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49758455" weight="0.31852654" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49919486" weight="0.39869988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49973163" weight="0.32960895" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49973163" weight="0.3288201" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49973163" visible="true" weight="0.32827735" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5002684" side_tool="true" weight="0.32962137" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" sideWeight="0.4986581" visible="true" weight="0.3277405" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4986581" weight="0.3277405" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24959743" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" sideWeight="0.49907234" weight="0.14422241" />
+      <window_info anchor="right" id="Maven" order="4" sideWeight="0.49907234" visible="true" weight="0.14392324" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Coverage" order="8" sideWeight="0.5009276" side_tool="true" weight="0.1454643" />
+      <window_info anchor="right" id="Coverage" order="8" sideWeight="0.5009276" side_tool="true" weight="0.14498934" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -464,38 +455,15 @@
     <SUITE FILE_PATH="coverage/ChatBot$ChatBot.ic" NAME="ChatBot Coverage Results" MODIFIED="1564381929545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.JSB2G3.ChatBot.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/ChatBot$FeaturesTest.ic" NAME="FeaturesTest Coverage Results" MODIFIED="1564987094417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.JSB2G3.ChatBot.*</FILTER>
+    </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar!/org/json/simple/parser/Yylex.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="201" selection-start-line="201" selection-end-line="201" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar!/org/json/simple/parser/JSONParser.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1119">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar!/org/json/simple/parser/Yylex.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar!/org/json/simple/parser/JSONParser.class" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/ArrayList.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/JSB2G3/ChatBot/PM.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/JSB2G3/ChatBot/ModelTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/JSB2G3/ChatBot/Display.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/JSB2G3/ChatBot/ModelDetailsMenu.java" />
@@ -507,57 +475,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/JSB2G3/ChatBot/Greetings.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/JSB2G3/ChatBot/GreetingsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="42" column="47" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
+        <state relative-caret-position="735">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/JSB2G3/ChatBot/StartUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/JSB2G3/ChatBot/JsonReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="520">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/JSB2G3/ChatBot/Features.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JSB2G3/ChatBot/PM.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-847">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        <state relative-caret-position="220">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JSB2G3/ChatBot/StartUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="21" column="60" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#133#155#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/JSB2G3/ChatBot/FeaturesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="40">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/JSB2G3/ChatBot/GreetingsTest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="692">
-          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        <state relative-caret-position="312">
+          <caret line="73" column="32" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JSB2G3/ChatBot/Greetings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="42" column="47" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -566,8 +538,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/JSB2G3/ChatBot/ChatBot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="240">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -576,8 +548,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/JSB2G3/ChatBot/MainMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5130">
-          <caret line="190" column="1" selection-start-line="190" selection-start-column="1" selection-end-line="190" selection-end-column="1" />
+        <state relative-caret-position="480">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JSB2G3/ChatBot/Features.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JSB2G3/utils/TypeValues.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/JSB2G3/ChatBot/MainMenuTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding>
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/JSB2G3/ChatBot/ConstantsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

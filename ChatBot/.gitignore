@@ -1,0 +1,12 @@
+ChatBot/target/
+.idea/
+ChatBot/.idea/misc.xml
+ChatBot/.idea/workspace.xml
+ChatBot/target/classes/com/JSB2G3/ChatBot/Features.class
+ChatBot/target/classes/com/JSB2G3/ChatBot/Greetings.class
+ChatBot/target/classes/com/JSB2G3/ChatBot/JsonReader.class
+ChatBot/target/classes/com/JSB2G3/ChatBot/MainMenu.class
+ChatBot/target/classes/com/JSB2G3/ChatBot/StartUp.class
+plugin/compile/default-compile/createdFiles.lst
+plugin/compile/default-compile/inputFiles.lst
+plugin/testCompile/default-testCompile/inputFiles.lst
