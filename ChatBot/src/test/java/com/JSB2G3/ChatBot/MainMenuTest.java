@@ -1,14 +1,10 @@
 package com.JSB2G3.ChatBot;
 
 import static junit.framework.TestCase.assertEquals;
-import static org.junit.Assert.*;
 
-import com.JSB2G3.utils.TypeValues;
 import org.junit.Test;
-import sun.applet.Main;
 
 import java.io.InputStream;
-import java.lang.reflect.Member;
 import java.util.Arrays;
 
 public class MainMenuTest {
