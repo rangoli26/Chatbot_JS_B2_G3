@@ -1,15 +1,17 @@
 package com.JSB2G3.ChatBot;
 
 import com.JSB2G3.utils.TypeValues;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
-
+@Getter @Setter
 public class MainMenu {
-    // private String[] menu={"Show All","Brand","Screen Size","Screen Type","Exit"};
+
     private List<String> models = new ArrayList<>();
     private List<String> modelFeatures = new ArrayList<>();
     private List<String> menuList = new ArrayList<>
@@ -18,14 +20,6 @@ public class MainMenu {
 
     Features features=new Features();
 
-
-    public List<String> getMenuList() {
-        return menuList;
-    }
-
-    public void setMenuList(List<String> menuList) {
-        this.menuList = menuList;
-    }
 
     public MainMenu()
     {
@@ -111,7 +105,7 @@ public class MainMenu {
 
     }
 
-    private List<String>  modelMenu(String choice,String selectedFeature)
+    public List<String>  modelMenu(String choice,String selectedFeature)
     {
         switch (choice)
         {
